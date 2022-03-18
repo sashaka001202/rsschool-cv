@@ -32,3 +32,9 @@ function multiply(a, b){
 * JavaScript/Front-end - The Rolling Scopes (in progress)
 * React - The Rolling Scopes (in progress)
 * Full-stack Python on Otus.ru (part)
+
+### Languages:
+* Belorussian - Native
+* Russian - Native
+* English - Basic
+* Polish - Basic

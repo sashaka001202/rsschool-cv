@@ -1,0 +1,10 @@
+html {
+    background-color: #E5E5E5;
+}
+body{
+    max-width: 595px;
+    background-color: white;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}

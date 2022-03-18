@@ -13,6 +13,15 @@ rsschool-cv
 ### Briefly About Myself:
 I'm 27 years old. I became pretty good engineer after university. At my previous job I was engaged in 3D modeling and drawings. ​This work gave me creative skills, teamwork, patience and attentiveness, as well as the ability to find a common language with people of other specialties.  All these personal qualities, as well as huge motivation and desire will allow me to become a good specialist in this field.
 
+### Code example:
+This code does not execute properly. Try to figure out why.
+
+```
+function multiply(a, b){
+  return a * b
+}
+```
+
 ### Education:
 * Belarusian National Technical University
 * Automation of technological processes and industries

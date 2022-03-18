@@ -4,7 +4,13 @@ html {
 body{
     max-width: 595px;
     background-color: white;
+    margin: auto;
+}
+
+wrapper{
+
     display: flex;
     flex-direction:row;
     justify-content: space-between;
+    
 }

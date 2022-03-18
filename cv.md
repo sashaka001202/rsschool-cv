@@ -1,10 +1,10 @@
 rsschool-cv
 
-#Aleksander Kardash
+# Aleksander Kardash
 
-##Junior Frontend Developer
+## Junior Frontend Developer
 
-###Contact information:
+### Contact information:
 * Phone: +375 25 510 45 98
 * E-mail: sashaka00120@gmail.com
 * Telegram: @gastinec007

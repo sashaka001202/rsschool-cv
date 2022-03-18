@@ -24,7 +24,7 @@ function multiply(a, b){
 
 ### Education:
 * Belarusian National Technical University
-* Automation of technological processes and industries
+    + Automation of technological processes and industries
 
 ### Courses:
 * HTML and CSS Tutorials -  the w3schools (completed)

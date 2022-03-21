@@ -26,6 +26,16 @@ function multiply(a, b){
 * Belarusian National Technical University
     + Automation of technological processes and industries
 
+### Skills and Proficiency:
+* HTML5, CSS3
+* Python
+* Wordpress
+* JavaScript Basics
+* Git, GitHub
+* VS Code
+* Adobe Photoshop
+
+
 ### Courses:
 * HTML and CSS Tutorials -  the w3schools (completed)
 * JavaScript Manual - learnjavascript.ru (in progress)

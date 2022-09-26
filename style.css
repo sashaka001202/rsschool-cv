@@ -1,0 +1,379 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/*------------------------------------*\
+    # Body and Html, wrapper
+\*------------------------------------*/
+
+html {
+    background-color: #E5E5E5;
+
+
+}
+body{
+    max-width: 595px;
+    background-color: white;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    position: relative ;
+    
+}
+main{
+    position: relative ;
+    
+}
+
+#wrapper{
+    max-width: 500px;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column ;
+    margin: auto;
+    position: relative;
+
+    
+    }
+
+    .container{
+        top: 0px;
+        left: 0;
+        height: 400px;
+        width: 595px;
+        position: absolute;
+        padding-top: 100px;
+        overflow: hidden;
+        margin: auto;
+        
+    }
+
+/*------------------------------------*\
+    # H
+\*------------------------------------*/
+
+h1{
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 400;
+}
+h2{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+h3{
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+    margin-bottom:0;
+}
+
+h5{
+    
+    height: 18px;
+    font-size: 8px;
+    line-height: 18px;
+    font-weight: 700;
+    background: #63B3ED;
+    color: white;
+    border-radius: 64px;
+    margin-bottom:0;
+    padding: 0px 8px 0px 8px;
+
+}
+
+/*------------------------------------*\
+    # Content main
+\*------------------------------------*/
+
+
+#main-info{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction:row;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+#main-col {
+    /* background-color: aquamarine; */
+    width: 220px;
+}
+
+#main-anim {
+    /* background-color: blue; */
+    width: 220px;
+}
+
+/*------------------------------------*\
+    # Content info
+\*------------------------------------*/
+
+#information{
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex:auto;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+#hello-col p{
+    font-size: 24px;
+    line-height: 29px;
+    color: #4299E1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#edu-year{
+    color: #63B3ED;
+}
+#edu-univer{
+    font-size: 14px;
+
+}
+
+#Education p{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+
+
+#column-first {
+    /* background-color: crimson; */
+    max-width: 225px;
+}
+
+#column-two {
+    /* background-color: darksalmon; */
+    max-width: 225px;
+}
+
+
+
+#hello-col section{
+    width: 51px;
+    height: 9px;
+    /* background-color: #4299E1; */
+    border-radius: 64px
+}
+
+#code {
+    display: block;
+    /* background-color: aquamarine; */
+    white-space: pre;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: scroll;
+    max-width: 100%;
+    min-width: 100px;
+    padding: 0;
+  }
+
+#Skills {
+    /* background-color: darkgrey; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+#Languages p{
+    line-height: 16px;
+    margin-top: 8px;
+    margin-bottom:0;
+}
+
+#Front,  #Software, #Other{
+    /* background-color: darkkhaki; */
+    display: flex;
+    flex-direction: row;   
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#Front p,  #Software p, #Other p{
+    margin-left: 16px;
+    font-size: 16px;
+    line-height:  20px;;
+    margin-top: 0;
+    margin-bottom:0;
+}
+
+
+
+.contacts {
+    top:170px;
+    right: 0;
+    position: absolute;
+    z-index: 101;
+}
+
+.contacts div{
+    background-color: #90CDF4;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05);
+    border-radius: 64px;
+    margin: 10px 5px 5px 5px;
+    padding: 8px 28px 5px 28px;
+    text-align: center;
+    display: block;
+   
+
+}
+
+.contacts div:hover{
+    background-color: #FBD38D;
+    transform: translateX(-10px) scale(1.1);
+    }
+
+.contacts  a{
+    width: 150px;
+    height: 15px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    }
+
+.round{
+    position: relative;
+    float:right;
+    top:-70px;
+    right: 0;
+    width: 187px;
+    height: 375px;
+    border-radius: 100% 0 0 100% / 50% 0 0 50%;
+    background: #BEE3F8;
+    /* overflow: hidden */
+    
+}
+.photo {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    background-image:url(images/photo3.jpg);
+    border-radius: 100% ;
+    z-index: 100;
+}
+
+
+@keyframes animate {
+    from { transform: rotate(0deg) translateX(215px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(215px) rotate(-360deg) ; }
+
+}
+
+@keyframes animate2 {
+    from { transform: rotate(50deg) translateX(185px) rotate(50deg); }
+    to   { transform: rotate(410deg) translateX(185px) rotate(-410deg) ; }
+
+}
+
+@keyframes animate3 {
+    from { transform: rotate(100deg) translateX(105px) rotate(100deg); }
+    to   { transform: rotate(460deg) translateX(105px) rotate(-460deg) ; }
+
+}
+@keyframes animate4 {
+    from { transform: rotate(180deg) translateX(82px) rotate(180deg); }
+    to   { transform: rotate(540deg) translateX(82px) rotate(-540deg) ; }
+
+}
+
+@keyframes animate5 {
+    from { transform: rotate(180deg) translateX(82px) rotate(180deg); }
+    to   { transform: rotate(540deg) translateX(82px) rotate(-540deg) ; }
+
+}
+
+
+.ellipse1 {
+    position:absolute;
+    top: 176px;
+    left: 170px;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #ED8936;
+    border-radius: 100%;
+    animation: animate 20s linear infinite;
+    
+}
+
+
+.ellipse2 {
+    position:absolute;
+    top: 176px;
+    left: 170px;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #ED8936;
+    border-radius: 100%;
+    animation: animate2 13s linear infinite;
+}
+.ellipse3 {
+    position:absolute;
+    top: 176px;
+    left: 170px;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #4299E1;
+    border-radius: 100%;
+    animation: animate3 8s linear infinite;
+}
+.ellipse4 {
+    position:absolute;
+    top: 176px;
+    left: 170px;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #4299E1;
+    border-radius: 100%;
+    animation: animate4 10s linear infinite;
+}
+
+.figure-square
+{
+    position: relative;   
+}
+
+.square1 {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    width: 15px;
+    height: 15px;
+    background-color: #4299E1;
+    animation: animate2 16s linear infinite;
+
+}
+
+.square2 {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    width: 15px;
+    height: 15px;
+    background-color:  #ED8936;
+    animation: animate2 13s linear infinite;
+
+}
+.square3 {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    width: 15px;
+    height: 15px;
+    background-color: #4299E1;
+    animation: animate5 13s linear infinite;
+}
